@@ -30,6 +30,10 @@ export default function Navigation () {
                 <Link activeClass="active" smooth duration={500} offset={-100} spy to="contact">
                   04. Contact me
                 </Link>
+                <a href="CV.pdf" download>
+                  <button className='cv-btn'>Resume</button>
+                </a>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>

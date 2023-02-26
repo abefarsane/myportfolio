@@ -362,8 +362,10 @@ and (min-device-width : 768px) {
 
 #basic-navbar-nav .navbar-nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    column-gap: 5%;
+    width: 100%;
   }
 
 
@@ -380,4 +382,16 @@ and (min-device-width : 768px) {
 
   }
 
+}
+
+
+.cv-btn {
+  padding: 2%;
+  border-radius: 10px;
+  border: 4px solid var(--extraLight);
+  outline: none;
+  background-color: var(--light);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
 }
