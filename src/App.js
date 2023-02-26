@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Projects from './components/Projects'
+import About from './components/About'
+import Contact from './components/Contact'
+import Navigation from './components/Navigation'
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <section className='pages'>
+        <Home />
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <About />
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <Projects />
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <Contact />
+        </AnimationOnScroll>
+      </section>
+
     </div>
   );
 }
