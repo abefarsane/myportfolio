@@ -16,7 +16,7 @@ export default function Navigation () {
         <Container>
           <Navbar.Brand href="">FA Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="me-auto">
             <Link activeClass="active" smooth duration={500} offset={10} spy to="home">
                   01. Home

@@ -33,7 +33,7 @@ export default function Projects () {
         {
             id: 2,
             title: "Coffee Table",
-            description: "It takes a lot of time & effort to research and reach out to people who might have specific knowledge that you’re interested in. Area4U is there to solve that problem!",
+            description: "It takes a lot of time & effort to research and reach out to people who might have specific knowledge that you’re interested in. CoffeeTable is there to solve that problem!",
             link: "",
             github: "https://github.com/dmitriyesayan/coffee_table",
             stack: [
