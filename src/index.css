@@ -7,10 +7,10 @@
   font-family: 'Poppins';
   padding: 0;
   margin: 0;
-  --primary: #3C6255;
-  --secondary: #61876E;
-  --light: #A6BB8D;
-  --extraLight: #EAE7B1;
+  --primary: #1a116f;
+  --secondary: #3581c3;
+  --light: #75caff;
+  --extraLight: #077f91;
   --white: #F6FFF8;
 
   background-color: var(--primary);
@@ -28,6 +28,9 @@ a {
 body {
   margin: 0;
 }
+
+.navbar-toggler {
+background-color: white;}
 
 
 .pages {

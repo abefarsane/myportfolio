@@ -32,6 +32,16 @@ export default function Projects () {
         },
         {
             id: 2,
+            title: "Online Register",
+            description: "A user-friendly platform designed for teachers and parents to easily manage and view students' grades, attendance, and notes.",
+            link: "",
+            github: "https://github.com/dmitriyesayan/coffee_table",
+            stack: [
+                "React", "Node", "MySql", "Bootstrap"
+            ],
+        },
+        {
+            id: 3,
             title: "Coffee Table",
             description: "It takes a lot of time & effort to research and reach out to people who might have specific knowledge that you’re interested in. CoffeeTable is there to solve that problem!",
             link: "",
